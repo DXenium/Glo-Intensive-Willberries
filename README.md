@@ -42,9 +42,9 @@
 │   └── 📄 bootstrap-grid.min.css       # Дополнительные стили
 │   └── 📄 swiper-bundle.min.css       # Дополнительные стили
 ├── 📂 js/
-│   ├── 📄 getGoods.js         # Основной скрипт
+│   ├── 📄 getGoods.js         # Отрисовка товаров
 │   ├── 📄 cart.js         # Логика корзины
-│   └── 📄 search.js          # Работа с API
+│   └── 📄 search.js          # Поиск
 ├── 📂 db/
 │   └── 📄 bd.json   # База данных товаров
 ```
