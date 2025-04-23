@@ -28,7 +28,7 @@ const getGoods = () => {
     }
 
     const getData = (value, category) => {
-        fetch('/db/db.json')
+        fetch('db/db.json')
             .then((res) => res.json())
             .then((data) => {
                 // Если category и value не переданы, берем все товары
