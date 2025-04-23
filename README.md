@@ -25,23 +25,26 @@
 - Отправка данных о заказе на сервер
 
 🔧 Технологический стек
-Чистый JavaScript (ES6+)
-HTML5, CSS3 (Flexbox, Grid)
-LocalStorage для хранения состояния
-Fetch API для работы с сервером
-GitHub Pages для хостинга
+- Чистый JavaScript (ES6+)
+- HTML5, CSS3 (Flexbox, Grid)
+- LocalStorage для хранения состояния
+- Fetch API для работы с сервером
+- GitHub Pages для хостинга
 
-📂 Структура проекта
-Glo-Intensive-Willberries/
-├── index.html          # Главная страница
-├── goods.html          # Страница товаров
-├── css/
-│   └── style.css       # Основные стили
-├── js/
-│   ├── main.js         # Основной скрипт
-│   ├── cart.js         # Логика корзины
-│   └── api.js          # Работа с API
-├── db/
-│   └── products.json   # База данных товаров
+## 🗂 Структура проекта
 
-
+```
+📦 Glo-Intensive-Willberries
+├── 📄 index.html          # Главная страница
+├── 📄 goods.html          # Страница товаров
+├── 📂 css/
+│   └── 📄 style.css       # Основные стили
+│   └── 📄 bootstrap-grid.min.css       # Дополнительные стили
+│   └── 📄 swiper-bundle.min.css       # Дополнительные стили
+├── 📂 js/
+│   ├── 📄 getGoods.js         # Основной скрипт
+│   ├── 📄 cart.js         # Логика корзины
+│   └── 📄 search.js          # Работа с API
+├── 📂 db/
+│   └── 📄 bd.json   # База данных товаров
+```
